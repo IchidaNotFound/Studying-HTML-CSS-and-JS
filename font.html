@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font</title>
+
+    <style>
+      .font_1 {
+        /*font-family define uma reserva de fontes , caso a primeira 
+        não funcionar o codigo irá usar essas fontes reservas.*/
+        font-family: 'Courier New', Courier, monospace;
+        /*font-size define o tamanho da fonte*/
+        font-size: 30px;
+        /*font-style define o estilo da fonte que pode ser : normal
+        itálico e oblíquo (oblíquo é muito semelhante ao itálico, mas menos apoiado)*/
+        font-style: normal;
+        /*font-weight define o peso da fonte que pode ser : normal, 
+        bold (negrito) ou um valor de 100 a 900 (900 é igual ao bold)*/
+        font-weight: normal;
+        /*font-decoration pode receber três valores : 
+        underline(coloca uma barra embaixo do texto)
+        overline(coloca uma barra emcima do texto)
+        line-through(coloca uma barra no meio do texto)*/
+        text-decoration: underline;
+
+      }
+      .font_2 {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: overline;
+
+      }
+      .font_3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-style: oblique;
+        font-weight: 300;
+        text-decoration: line-through;
+      }
+    
+    
+    </style>
+</head>
+
+<body>
+   <h1 class="font_1">TEXTO 1</h1>
+   <h1 class="font_2">Texto 2</h1>
+   <h1 class="font_3">Texto 3</h1>
+</body>
+</html>
+
